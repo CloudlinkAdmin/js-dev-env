@@ -13,6 +13,6 @@ frequent. Any files that aren't referenved here will be
 bundled into main.js fro the production build
 */
 
-/* esling-disable no-unused-vars */
+/* eslint-disable no-unused-vars */
 
 import fetch from 'whatwg-fetch';
