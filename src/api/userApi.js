@@ -15,7 +15,7 @@ function get(url) {
   return fetch(baseUrl + url).then(onSuccess, onError);
 }
 
-// Can't call func dlete sence reserved word.
+// Can't call func delete since it's a reserved word.
 function del(url) {
   const request = new Request(baseUrl + url, {
     method: 'DELETE'
@@ -29,5 +29,5 @@ function onSuccess(response) {
 }
 
 function onError(error) {
-  console.log(error) // esøint-disable-line no-console
+  console.log(error) // eslint-disable-line no-console
 }
